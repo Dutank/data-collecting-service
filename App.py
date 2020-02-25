@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return "Hello World!"r
+    return "Hello World!"
 @app.route('/machinelearning')
 def machine_learning():
     retJson = {
